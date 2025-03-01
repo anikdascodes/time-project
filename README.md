@@ -2,7 +2,7 @@
 
 A modern task management application built with React and TypeScript, featuring time tracking, task organization, and smart notifications.
 
-![TaskFlow Pro](placeholder-for-app-screenshot.png)
+
 
 ## Features
 
