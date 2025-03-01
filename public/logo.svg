@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="248" fill="#F8FAFC" stroke="#3B82F6" stroke-width="16"/>
+  
+  <!-- Layers Icon -->
+  <g transform="translate(128, 128) scale(1.2)">
+    <!-- Bottom Layer -->
+    <path d="M40 168L128 216L216 168L128 120L40 168Z" fill="#3B82F6" fillOpacity="0.2"/>
+    <!-- Middle Layer -->
+    <path d="M40 136L128 184L216 136L128 88L40 136Z" fill="#3B82F6" fillOpacity="0.4"/>
+    <!-- Top Layer -->
+    <path d="M40 104L128 152L216 104L128 56L40 104Z" fill="#3B82F6"/>
+  </g>
+  
+  <!-- Clock Hand -->
+  <g transform="translate(256, 256)">
+    <line 
+      x1="0" 
+      y1="0" 
+      x2="80" 
+      y2="-40" 
+      stroke="#7C3AED" 
+      stroke-width="12" 
+      stroke-linecap="round"
+      transform="rotate(45)"
+    />
+    <circle cx="0" cy="0" r="12" fill="#7C3AED"/>
+  </g>
+  
+  <!-- Sparkles -->
+  <g transform="translate(320, 160)">
+    <path d="M0 0L8 20L16 0L8 -20L0 0Z" fill="#FBBF24"/>
+    <path d="M-14 14L6 22L14 2L-6 -6L-14 14Z" fill="#FBBF24" fillOpacity="0.6"/>
+    <path d="M14 14L-6 22L-14 2L6 -6L14 14Z" fill="#FBBF24" fillOpacity="0.3"/>
+  </g>
+</svg>

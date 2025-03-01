@@ -1,0 +1,3 @@
+-- This migration file is no longer needed as its contents are identical to 20250301161715_twilight_fountain.sql
+-- Keeping duplicate migrations can cause issues during deployment
+-- This file has been emptied to prevent duplicate schema changes

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --task-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+  
+  .dark {
+    --task-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.2);
+  }
+}
+
+@layer components {
+  .task-card {
+    @apply transition-all duration-300 ease-in-out;
+    box-shadow: var(--task-shadow);
+  }
+  
+  .task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--task-shadow), 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  }
+  
+  .stat-card {
+    @apply relative overflow-hidden;
+  }
+  
+  .stat-card::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br opacity-10;
+  }
+  
+  .stat-card:hover::before {
+    @apply opacity-20 transition-opacity duration-300;
+  }
+}
