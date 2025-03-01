@@ -47,39 +47,6 @@ A modern task management application built with React and TypeScript, featuring 
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
-- **Backend**: Supabase (coming soon)
-- **Database**: PostgreSQL (coming soon)
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18.0 or higher
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/yourusername/taskflow-pro.git
-cd taskflow-pro
-\`\`\`
-
-2. Install dependencies:
-\`\`\`bash
-npm install
-# or
-yarn install
-\`\`\`
-
-3. Start the development server:
-\`\`\`bash
-npm run dev
-# or
-yarn dev
-\`\`\`
-
-4. Open http://localhost:5173 in your browser
 
 ## Usage
 
@@ -134,31 +101,3 @@ src/
 └── lib/               # Third-party integrations
 \`\`\`
 
-## Development Status
-
-Current Version: 0.1.0
-
-### Upcoming Features
-
-- [ ] Task categories and projects
-- [ ] Data synchronization with Supabase
-- [ ] User authentication
-- [ ] Team collaboration
-- [ ] Advanced analytics
-- [ ] Mobile app version
-- [ ] Calendar integration
-- [ ] Export/import functionality
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Icons by [Lucide](https://lucide.dev)
-- Animation library by [Framer Motion](https://www.framer.com/motion)
-- UI components styled with [Tailwind CSS](https://tailwindcss.com)
